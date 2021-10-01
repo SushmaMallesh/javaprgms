@@ -4,20 +4,17 @@ public class Ballooon {
 	double price;
 	int size;
 	 
-	void Balloon()
+	Ballooon()
 	{
 	System.out.println("default");
 	}
-	void Balloon(String color)
+	Ballooon(String color)
 	{
 	System.out.println("single");
 	}
-	void Balloon(String color,int size)
+	Ballooon(String color,int size)
 	{
 	System.out.println("two");
 	}
-	void Balloon(String color,int size,double price)
-	{
-	System.out.println("three");
-	}
+	
 }
